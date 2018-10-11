@@ -1,7 +1,7 @@
 {
  "manifest_version": 2,
  "name": "Rocketship",
- "description": "Tired of deciding what to read? Get directed to one of any number of websites that you input." ,
+ "description": "Rocketship is a simple tool to make it easier for you to decide what to read online. Simply enter a list of blogs or publications you follow. Click on Let's Go and allow Rocketship to take you to a randomly selected link. Remove decision paralysis!" ,
  "version": "1",
  "author": "Advaith Mohan",
 "browser_action": {
