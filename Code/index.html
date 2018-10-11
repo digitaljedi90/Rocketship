@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Rocketship</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+<!--Section to add logo-->
+  <div class = "logo">
+    <img class = "img-logo" src = "img/LogoType.png">
+  </div>
+
+<!-- Section for CTA-->
+  <div class = "cta">
+    <h2>Go on a journey. Learn something new.</h2>
+    <button type = "button" id = "gobutton">Let's Go</button>
+    <p id = "info-text">How does it work?</p>
+  </div>
+
+<!--Section for Add button-->
+  <div class = "add-button">
+    <button id = "img-add-button"></button>
+  </div>
+
+<!-- Section for Add Links modal-->
+  <div id = "add-links-modal" class = "modal">
+    <div class = "modal-content">
+      <span class = "close">&times;</span>
+      <h3>Your Knowledge Sources</h3>
+      <div class = "input-list">
+          <input type = "text" id = "sourceInput" placeholder = "Enter new link. eg:- inverse.com">
+          <p>Press enter to add</p>
+    </div>
+    <div class = "scrollWindow">
+      <ul id = "myUL">
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Section for info modal-->
+  <div id = "info-modal" class = "modal">
+    <div class = "modal-content">
+      <span class = "close">&times;</span>
+      <div class = "info-content">
+        <p>If you're like me, you read. A lot! Especially online. But there's so much interesting stuff out there. How does one even decide what to read at any give time?  <br><br> <strong>Rocketship</strong> is a tool which makes it much easier for you to read your favourite pieces of content on the web. And it's super simple to use.</p>
+
+        <p><strong>Step 1</strong> - Just click on the plus button on the bottom right.
+
+        <p><strong>Step 2</strong> - Add links of the blogs or publications that you follow.</p>
+
+        <p><strong>Step 3</strong> - When you have a few minutes to read, simply click on the 'Let's Go button'</p>
+
+        <p>Everytime you click 'Let's Go', Rocketship takes you to a randomly selected link from your list, thus saving you from decision paralysis.</p>
+
+        <p><strong>Happy Reading!</p>
+    </div>
+  </div>
+</div>
+
+  <!-- Call the main script-->
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+</body>
+
+</html>
