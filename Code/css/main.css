@@ -154,12 +154,24 @@ body {
   font-weight: 200;
   color: #ffffff;
   text-decoration: underline;
-  display : block;
+  /*display : inline-block;*/
   margin-left : auto;
   margin-right : auto;
   text-align: center;
   vertical-align: middle;
 }
+
+@media (max-width: 700px) {
+  .cta p{
+    /* Maximum font size */
+    font-size: 10.5px;
+  }
+}
+
+.cta p:hover{
+  color: #d3d3d3;
+}
+
 .cta
 {
   margin-top : 5%;
@@ -374,10 +386,15 @@ ul li {
   width:40%;
   height:auto;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
   border-radius: 15px;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 700px) {
@@ -396,13 +413,31 @@ ul li {
 
 @media (max-width: 700px) {
   .info-content p{
-      font-size: 9.8;
+      font-size: 9.8px;
     }
   }
 
-.info-content p:hover{
-  color: #4a4a4a;
-}
+  .created-by {
+    position: absolute;
+    left: 48px;
+    bottom: 36px;
+  }
+
+  .created-by p{
+      font-size: 1.2vw;
+      color: #ffffff;
+      text-align: center;
+  }
+
+  .created-by a{
+      color: #ffffff;
+  }
+
+  @media (max-width: 700px) {
+    .created-by p{
+        font-size: 8.4px;
+      }
+    }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
